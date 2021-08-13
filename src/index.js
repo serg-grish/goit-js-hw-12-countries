@@ -5,7 +5,7 @@ import '../node_modules/@pnotify/core/dist/Angeler.css';
 import '../node_modules/@pnotify/core/dist/BrightTheme.css';
 import '../node_modules/@pnotify/core/dist/Material.css';
 import '../node_modules/@pnotify/core/dist/PNotify.css';
-import './styles.css';
+import './style.css';
 
 let searchQuery = '';
 const URL = `https://restcountries.eu/rest/v2/name/`;
