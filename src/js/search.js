@@ -34,9 +34,8 @@ function searchInputHandler(e) {
         createListMarkup(data, countryList);
       }
     })
-    .catch(Error => {
-      Error({ text: 'You must enter name parameters!' });
-      console.log(Error);
+    .catch(err => {
+      error({ text: 'Empty request!', delay: 1500 });
     });
 }
 
